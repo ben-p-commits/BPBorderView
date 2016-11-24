@@ -1,0 +1,16 @@
+PODS:
+  - BPBorderView (0.1.0)
+
+DEPENDENCIES:
+  - BPBorderView (from `../`)
+
+EXTERNAL SOURCES:
+  BPBorderView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BPBorderView: 7ac1305333c6fb9e846eba6ed0e95d53b96f0bd2
+
+PODFILE CHECKSUM: 8694977406d2fd086b16f71a54158216ae2f966f
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,22 @@
+{
+  "name": "BPBorderView",
+  "version": "0.1.0",
+  "summary": "A short description of BPBorderView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/BPBorderView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ben Palmer": "ben.palmer@playmakercrm.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/BPBorderView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BPBorderView/Classes/**/*"
+}
