@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BPBorderView_Example' do
+  pod 'BPBorderView', :path => '../'
+
+  target 'BPBorderView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
