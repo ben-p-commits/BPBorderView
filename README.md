@@ -5,9 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/BPBorderView.svg?style=flat)](http://cocoapods.org/pods/BPBorderView)
 [![Platform](https://img.shields.io/cocoapods/p/BPBorderView.svg?style=flat)](http://cocoapods.org/pods/BPBorderView)
 
-## Example
+### BPBorderView
+A simple UIView subclass which takes some flags on initialization for easy set up of border subviews. 
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Installation
 
@@ -17,6 +17,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "BPBorderView"
 ```
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Usage
 

@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		22FBD985AFC1C4046F054C62CDF8ECED /* Pods-BPBorderView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C7426047551135A89925FE4D9842D5 /* Pods-BPBorderView_Tests-dummy.m */; };
-		3AC43C65A436F3793E0FDDB18DC33505 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		4CE148EA4AACB936B5886B541EA082B6 /* BPBorderView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EFB5CC0608495B610A9DA2C8F482813 /* BPBorderView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C6C1497FF4389C522D5B711B5C3ADFE /* BPBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C3A7D97F3BAD7F224D22B2555A0919 /* BPBorderView.m */; };
 		585BA7F0B7C00B21FED2AF00E7627E48 /* Pods-BPBorderView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4709FC265BF50B40B4426B3D857D795 /* Pods-BPBorderView_Example-dummy.m */; };
 		5C23650CE80E97E729C8F30C34F576F6 /* Pods-BPBorderView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50131A469625FB40AC50C77E655F7204 /* Pods-BPBorderView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7052F4B6591A582BF44F3E4BED0F18F3 /* BPBorderView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EFB5CC0608495B610A9DA2C8F482813 /* BPBorderView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7141E9811DBEC789B6BF99572BAFA9D4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BD43BCFCB540D3A4EAD4453FBB7646B6 /* ReplaceMe.m */; };
+		733A390F6F0A4298A53C5F17A1E26AC3 /* BPBorderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE3875D959696FB5615E462611088ED /* BPBorderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		735B40A6B0BC3F14264D089428D4ECFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		84A1220D5DD766D0B798836315C8CE3D /* BPBorderView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5657664CBEEAA14C6259D8F72BB22C48 /* BPBorderView-dummy.m */; };
 		910C1E5A305F90D6F875AEB60796DCA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		920EA7973E2CB5769EB588257A135B40 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A98343E34FE0A43DE18C5723DB242541 /* ReplaceMe.m */; };
-		B54D03E21DE74B160090632B /* BPBorderView.h in Headers */ = {isa = PBXBuildFile; fileRef = B54D03E01DE74B160090632B /* BPBorderView.h */; };
-		B54D03E31DE74B160090632B /* BPBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B54D03E11DE74B160090632B /* BPBorderView.m */; };
+		BC6D491754A530C43D30C338DB582DC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		CBD02425CDA48F652EE2A3F0C739137F /* Pods-BPBorderView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF07F974B75C386CE2059E615BE6BC1 /* Pods-BPBorderView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCB1CC80954301EFAB34121C338F4F95 /* BPBorderView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5657664CBEEAA14C6259D8F72BB22C48 /* BPBorderView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +26,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 32B69699D763D750818A91739A65D5C2;
+			remoteGlobalIDString = FC7AFEF0CB1F3C239AA3559153B4E654;
 			remoteInfo = BPBorderView;
 		};
 /* End PBXContainerItemProxy section */
@@ -36,8 +36,10 @@
 		0DAC7369178D05923642BD7958B66EA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DDF73B205CFDD3080D055814E0676E2 /* Pods-BPBorderView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BPBorderView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		10C7426047551135A89925FE4D9842D5 /* Pods-BPBorderView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BPBorderView_Tests-dummy.m"; sourceTree = "<group>"; };
-		16FBC033C226BF800EF15263756177E5 /* Pods-BPBorderView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BPBorderView_Tests.modulemap"; sourceTree = "<group>"; };
+		16C3A7D97F3BAD7F224D22B2555A0919 /* BPBorderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BPBorderView.m; sourceTree = "<group>"; };
+		16FBC033C226BF800EF15263756177E5 /* Pods-BPBorderView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BPBorderView_Tests.modulemap"; sourceTree = "<group>"; };
 		1F27DFBB9763E4FDC8941C260F7E1B8C /* Pods-BPBorderView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BPBorderView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2CE3875D959696FB5615E462611088ED /* BPBorderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BPBorderView.h; sourceTree = "<group>"; };
 		31813D2F6B073DA09D88DC736B6A25EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E41CAAE105B296FE553C5C7616299FB /* Pods-BPBorderView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BPBorderView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		50131A469625FB40AC50C77E655F7204 /* Pods-BPBorderView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BPBorderView_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -45,25 +47,23 @@
 		5657664CBEEAA14C6259D8F72BB22C48 /* BPBorderView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BPBorderView-dummy.m"; sourceTree = "<group>"; };
 		580AAE1B9BAFD8D7E116056AAAD3E766 /* Pods-BPBorderView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BPBorderView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		602DFE2BAE5943E2B43AE95903E67248 /* Pods-BPBorderView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BPBorderView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6F7A51E314561CADAD3F2E140E68DCD9 /* BPBorderView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BPBorderView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B2E18D5D71B73F6DF9AB3E7AC972894 /* Pods_BPBorderView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BPBorderView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6F7A51E314561CADAD3F2E140E68DCD9 /* BPBorderView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BPBorderView.framework; path = BPBorderView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B2E18D5D71B73F6DF9AB3E7AC972894 /* Pods_BPBorderView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BPBorderView_Tests.framework; path = "Pods-BPBorderView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BF07F974B75C386CE2059E615BE6BC1 /* Pods-BPBorderView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BPBorderView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9EFB5CC0608495B610A9DA2C8F482813 /* BPBorderView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BPBorderView-umbrella.h"; sourceTree = "<group>"; };
 		A380E16BC7B25B246D388DC9F2D50CDD /* BPBorderView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BPBorderView-prefix.pch"; sourceTree = "<group>"; };
 		A5402CEDFD7CA447A7F5FACAA7B7E5E1 /* Pods-BPBorderView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BPBorderView_Example-resources.sh"; sourceTree = "<group>"; };
-		A98343E34FE0A43DE18C5723DB242541 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		B54D03E01DE74B160090632B /* BPBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPBorderView.h; sourceTree = "<group>"; };
-		B54D03E11DE74B160090632B /* BPBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPBorderView.m; sourceTree = "<group>"; };
 		B8060AD34AD41C0B6BE125726D82E2AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA365DAD45C868E1E6E453272A8E9B4A /* Pods-BPBorderView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BPBorderView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD43BCFCB540D3A4EAD4453FBB7646B6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		BE6F6085DE1C00787BE3AD4383E1FF4D /* Pods-BPBorderView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BPBorderView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C8C791DF86B7C83247DC92F71EC8000D /* Pods-BPBorderView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BPBorderView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D4709FC265BF50B40B4426B3D857D795 /* Pods-BPBorderView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BPBorderView_Example-dummy.m"; sourceTree = "<group>"; };
-		DF11D6193CC2366D7049DECE1842A26E /* Pods-BPBorderView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BPBorderView_Example.modulemap"; sourceTree = "<group>"; };
-		E1B3DB26E61F88089A1A151D022A6BFC /* BPBorderView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BPBorderView.modulemap; sourceTree = "<group>"; };
-		E2E49705F854B66BE81F96295D8AC71E /* Pods_BPBorderView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BPBorderView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF11D6193CC2366D7049DECE1842A26E /* Pods-BPBorderView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BPBorderView_Example.modulemap"; sourceTree = "<group>"; };
+		E1B3DB26E61F88089A1A151D022A6BFC /* BPBorderView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BPBorderView.modulemap; sourceTree = "<group>"; };
+		E2E49705F854B66BE81F96295D8AC71E /* Pods_BPBorderView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BPBorderView_Example.framework; path = "Pods-BPBorderView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F30FA2C5BAB101871FB0BB15F71E7164 /* BPBorderView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BPBorderView.xcconfig; sourceTree = "<group>"; };
 		F9B987CC843AC6A110D47297036A09BA /* Pods-BPBorderView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BPBorderView_Tests-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,19 +77,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A4C76FD857A84692088F088EAEE3096 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3AC43C65A436F3793E0FDDB18DC33505 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		765763B97A6E5BDE3932D8481196F6D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				910C1E5A305F90D6F875AEB60796DCA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83FDC6BD9086F1AFD4C368563F441C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6D491754A530C43D30C338DB582DC7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +117,7 @@
 		1B7FB1977A46B45D14334D34629066F1 /* BPBorderView */ = {
 			isa = PBXGroup;
 			children = (
-				DBFFEE2C3F099DBC5BC34071A483D86E /* BPBorderView */,
+				3B51FD1FA2F492A796A3FB682721EF2B /* BPBorderView */,
 				6F36392D65C84FD880F1794693AD0775 /* Support Files */,
 			);
 			name = BPBorderView;
@@ -142,14 +142,13 @@
 			path = "Target Support Files/Pods-BPBorderView_Tests";
 			sourceTree = "<group>";
 		};
-		3F00E4BF21BD74C26E1D292EF2EDDB92 /* Classes */ = {
+		3B51FD1FA2F492A796A3FB682721EF2B /* BPBorderView */ = {
 			isa = PBXGroup;
 			children = (
-				B54D03E01DE74B160090632B /* BPBorderView.h */,
-				B54D03E11DE74B160090632B /* BPBorderView.m */,
-				A98343E34FE0A43DE18C5723DB242541 /* ReplaceMe.m */,
+				84F33B81C8D9C516CE7CF9AE311C481D /* Classes */,
 			);
-			path = Classes;
+			name = BPBorderView;
+			path = BPBorderView;
 			sourceTree = "<group>";
 		};
 		50038607341070FF8A865C4A0185AB59 /* Products */ = {
@@ -204,6 +203,17 @@
 			);
 			sourceTree = "<group>";
 		};
+		84F33B81C8D9C516CE7CF9AE311C481D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2CE3875D959696FB5615E462611088ED /* BPBorderView.h */,
+				16C3A7D97F3BAD7F224D22B2555A0919 /* BPBorderView.m */,
+				BD43BCFCB540D3A4EAD4453FBB7646B6 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,14 +230,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		DBFFEE2C3F099DBC5BC34071A483D86E /* BPBorderView */ = {
-			isa = PBXGroup;
-			children = (
-				3F00E4BF21BD74C26E1D292EF2EDDB92 /* Classes */,
-			);
-			path = BPBorderView;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -239,12 +241,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2982AC5B1CF2EADE810AA719F03B2D82 /* Headers */ = {
+		4F47A2435F4C47DAF2FF4FB288C6712E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CE148EA4AACB936B5886B541EA082B6 /* BPBorderView-umbrella.h in Headers */,
-				B54D03E21DE74B160090632B /* BPBorderView.h in Headers */,
+				7052F4B6591A582BF44F3E4BED0F18F3 /* BPBorderView-umbrella.h in Headers */,
+				733A390F6F0A4298A53C5F17A1E26AC3 /* BPBorderView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,23 +261,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		32B69699D763D750818A91739A65D5C2 /* BPBorderView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8F7CDF7DDE82763F4AFB9124902D48B6 /* Build configuration list for PBXNativeTarget "BPBorderView" */;
-			buildPhases = (
-				020872B0598380286B416FAEF71ACED0 /* Sources */,
-				6A4C76FD857A84692088F088EAEE3096 /* Frameworks */,
-				2982AC5B1CF2EADE810AA719F03B2D82 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = BPBorderView;
-			productName = BPBorderView;
-			productReference = 6F7A51E314561CADAD3F2E140E68DCD9 /* BPBorderView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		50BE6EF69CFA242DD03733D226AE9486 /* Pods-BPBorderView_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 993E15B69C4EF18BA3B11A7D00C435BD /* Build configuration list for PBXNativeTarget "Pods-BPBorderView_Tests" */;
@@ -311,6 +296,23 @@
 			productReference = E2E49705F854B66BE81F96295D8AC71E /* Pods_BPBorderView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		FC7AFEF0CB1F3C239AA3559153B4E654 /* BPBorderView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DC9BDA67B24204978B5A4FC1647ABD2 /* Build configuration list for PBXNativeTarget "BPBorderView" */;
+			buildPhases = (
+				9EBA6912A6CB8F71969DBD92BBEFEE65 /* Sources */,
+				83FDC6BD9086F1AFD4C368563F441C0F /* Frameworks */,
+				4F47A2435F4C47DAF2FF4FB288C6712E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BPBorderView;
+			productName = BPBorderView;
+			productReference = 6F7A51E314561CADAD3F2E140E68DCD9 /* BPBorderView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -332,7 +334,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				32B69699D763D750818A91739A65D5C2 /* BPBorderView */,
+				FC7AFEF0CB1F3C239AA3559153B4E654 /* BPBorderView */,
 				ED0D1ECD51A5D982B56BD4D13BB1BB78 /* Pods-BPBorderView_Example */,
 				50BE6EF69CFA242DD03733D226AE9486 /* Pods-BPBorderView_Tests */,
 			);
@@ -340,16 +342,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		020872B0598380286B416FAEF71ACED0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CCB1CC80954301EFAB34121C338F4F95 /* BPBorderView-dummy.m in Sources */,
-				B54D03E31DE74B160090632B /* BPBorderView.m in Sources */,
-				920EA7973E2CB5769EB588257A135B40 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		111BB6B12D8571BC916431C05FC02F33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -366,13 +358,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9EBA6912A6CB8F71969DBD92BBEFEE65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A1220D5DD766D0B798836315C8CE3D /* BPBorderView-dummy.m in Sources */,
+				2C6C1497FF4389C522D5B711B5C3ADFE /* BPBorderView.m in Sources */,
+				7141E9811DBEC789B6BF99572BAFA9D4 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		E138F3D36A2F311985B4708D6078878B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BPBorderView;
-			target = 32B69699D763D750818A91739A65D5C2 /* BPBorderView */;
+			target = FC7AFEF0CB1F3C239AA3559153B4E654 /* BPBorderView */;
 			targetProxy = 4912E8CC3B124809E048655CC5D7F2D4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -448,7 +450,38 @@
 			};
 			name = Debug;
 		};
-		3EBF9A085C2148D7BBD4D980858B194C /* Debug */ = {
+		42C1B75884E57488FFC7B608F969A763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F30FA2C5BAB101871FB0BB15F71E7164 /* BPBorderView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BPBorderView/BPBorderView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BPBorderView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BPBorderView/BPBorderView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BPBorderView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F58E483F379E31444EFDD577BC3BB66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F30FA2C5BAB101871FB0BB15F71E7164 /* BPBorderView.xcconfig */;
 			buildSettings = {
@@ -506,37 +539,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_BPBorderView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		82CF1EB795930F14617899EF9A5254C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F30FA2C5BAB101871FB0BB15F71E7164 /* BPBorderView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BPBorderView/BPBorderView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BPBorderView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BPBorderView/BPBorderView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = BPBorderView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -685,11 +687,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F7CDF7DDE82763F4AFB9124902D48B6 /* Build configuration list for PBXNativeTarget "BPBorderView" */ = {
+		5DC9BDA67B24204978B5A4FC1647ABD2 /* Build configuration list for PBXNativeTarget "BPBorderView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3EBF9A085C2148D7BBD4D980858B194C /* Debug */,
-				82CF1EB795930F14617899EF9A5254C2 /* Release */,
+				6F58E483F379E31444EFDD577BC3BB66 /* Debug */,
+				42C1B75884E57488FFC7B608F969A763 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
