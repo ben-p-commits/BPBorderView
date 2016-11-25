@@ -37,7 +37,7 @@
 		0DDF73B205CFDD3080D055814E0676E2 /* Pods-BPBorderView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BPBorderView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		10C7426047551135A89925FE4D9842D5 /* Pods-BPBorderView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BPBorderView_Tests-dummy.m"; sourceTree = "<group>"; };
 		16C3A7D97F3BAD7F224D22B2555A0919 /* BPBorderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BPBorderView.m; sourceTree = "<group>"; };
-		16FBC033C226BF800EF15263756177E5 /* Pods-BPBorderView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BPBorderView_Tests.modulemap"; sourceTree = "<group>"; };
+		16FBC033C226BF800EF15263756177E5 /* Pods-BPBorderView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BPBorderView_Tests.modulemap"; sourceTree = "<group>"; };
 		1F27DFBB9763E4FDC8941C260F7E1B8C /* Pods-BPBorderView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BPBorderView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2CE3875D959696FB5615E462611088ED /* BPBorderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BPBorderView.h; sourceTree = "<group>"; };
 		31813D2F6B073DA09D88DC736B6A25EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,9 +47,9 @@
 		5657664CBEEAA14C6259D8F72BB22C48 /* BPBorderView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BPBorderView-dummy.m"; sourceTree = "<group>"; };
 		580AAE1B9BAFD8D7E116056AAAD3E766 /* Pods-BPBorderView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BPBorderView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		602DFE2BAE5943E2B43AE95903E67248 /* Pods-BPBorderView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BPBorderView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6F7A51E314561CADAD3F2E140E68DCD9 /* BPBorderView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BPBorderView.framework; path = BPBorderView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B2E18D5D71B73F6DF9AB3E7AC972894 /* Pods_BPBorderView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BPBorderView_Tests.framework; path = "Pods-BPBorderView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6F7A51E314561CADAD3F2E140E68DCD9 /* BPBorderView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BPBorderView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B2E18D5D71B73F6DF9AB3E7AC972894 /* Pods_BPBorderView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BPBorderView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BF07F974B75C386CE2059E615BE6BC1 /* Pods-BPBorderView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BPBorderView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9EFB5CC0608495B610A9DA2C8F482813 /* BPBorderView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BPBorderView-umbrella.h"; sourceTree = "<group>"; };
 		A380E16BC7B25B246D388DC9F2D50CDD /* BPBorderView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BPBorderView-prefix.pch"; sourceTree = "<group>"; };
@@ -61,9 +61,9 @@
 		C8C791DF86B7C83247DC92F71EC8000D /* Pods-BPBorderView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BPBorderView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D4709FC265BF50B40B4426B3D857D795 /* Pods-BPBorderView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BPBorderView_Example-dummy.m"; sourceTree = "<group>"; };
-		DF11D6193CC2366D7049DECE1842A26E /* Pods-BPBorderView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BPBorderView_Example.modulemap"; sourceTree = "<group>"; };
-		E1B3DB26E61F88089A1A151D022A6BFC /* BPBorderView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BPBorderView.modulemap; sourceTree = "<group>"; };
-		E2E49705F854B66BE81F96295D8AC71E /* Pods_BPBorderView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BPBorderView_Example.framework; path = "Pods-BPBorderView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF11D6193CC2366D7049DECE1842A26E /* Pods-BPBorderView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BPBorderView_Example.modulemap"; sourceTree = "<group>"; };
+		E1B3DB26E61F88089A1A151D022A6BFC /* BPBorderView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BPBorderView.modulemap; sourceTree = "<group>"; };
+		E2E49705F854B66BE81F96295D8AC71E /* Pods_BPBorderView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BPBorderView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F30FA2C5BAB101871FB0BB15F71E7164 /* BPBorderView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BPBorderView.xcconfig; sourceTree = "<group>"; };
 		F9B987CC843AC6A110D47297036A09BA /* Pods-BPBorderView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BPBorderView_Tests-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 			children = (
 				84F33B81C8D9C516CE7CF9AE311C481D /* Classes */,
 			);
-			name = BPBorderView;
 			path = BPBorderView;
 			sourceTree = "<group>";
 		};
@@ -210,7 +209,6 @@
 				16C3A7D97F3BAD7F224D22B2555A0919 /* BPBorderView.m */,
 				BD43BCFCB540D3A4EAD4453FBB7646B6 /* ReplaceMe.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -321,6 +319,17 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					50BE6EF69CFA242DD03733D226AE9486 = {
+						LastSwiftMigration = 0810;
+					};
+					ED0D1ECD51A5D982B56BD4D13BB1BB78 = {
+						LastSwiftMigration = 0810;
+					};
+					FC7AFEF0CB1F3C239AA3559153B4E654 = {
+						LastSwiftMigration = 0810;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -409,6 +418,7 @@
 				PRODUCT_NAME = Pods_BPBorderView_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -444,6 +454,7 @@
 				PRODUCT_NAME = Pods_BPBorderView_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -475,6 +486,7 @@
 				PRODUCT_NAME = BPBorderView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -506,6 +518,7 @@
 				PRODUCT_NAME = BPBorderView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -541,6 +554,7 @@
 				PRODUCT_NAME = Pods_BPBorderView_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -660,6 +674,7 @@
 				PRODUCT_NAME = Pods_BPBorderView_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
